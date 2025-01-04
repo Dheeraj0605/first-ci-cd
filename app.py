@@ -1,1 +1,2 @@
-print("hello world")
+def test_hello():
+    assert 1 + 1 == 2
