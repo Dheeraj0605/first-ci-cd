@@ -25,4 +25,5 @@ jobs:
 
       - name: Run Tests
         run: |
-          echo "No tests to run yet"
+          pip install flake8
+          flake8 app.py
